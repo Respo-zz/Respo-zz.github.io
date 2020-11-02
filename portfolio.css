@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=VT323&display=swap');
+
+body {
+ background: #F5F5F5;
+ color: #1A1A1A;
+ padding: 0px;
+ margin: 0px;
+}
+
+h1 {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  margin:0px;
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-family: VT323;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+
+}
+
+h3 {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+p {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px
+}
+
+span {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+a {
+  color: #12B549;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+li {
+  margin: 0px;
+  padding: 0px;
+}
+
+.link-container {
+  padding: 2px;
+  background: #08DF5E;
+  color: white;
+  margin-top:12px;
+  display: inline-block;
+}
+
+.header {
+  padding:100px 0px 70px 0px;
+  background: #1A1A1A;
+  color: white;
+  margin-bottom: 90px;
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.column{
+ margin-top: 90px;
+}
+
+.list-item{
+  width: 100%;
+  margin-top:30px;
+  padding-bottom:20px;
+}
+
+.b-bottom {
+    border-bottom: 1px solid #E0E0E0;
+}
+.workimg {
+  margin-top: 30px;
+}
+
+.footer {
+  margin-top: 120px;
+  padding:60px 0px 60px 0px;
+  background: #00FF57;
+  color: #1A1A1A;
+}
+
+.footer a {
+  color: #1A1A1A;
+}
