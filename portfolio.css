@@ -41,12 +41,13 @@ p {
   font-size: 20px
 }
 
-span {
+.helper-text {
   font-family: Karla;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   text-transform: uppercase;
+  margin-bottom: 12px;
 }
 
 a {
@@ -67,11 +68,10 @@ li {
 }
 
 .link-container {
+  font-size: 1em;
   padding: 2px;
   background: #08DF5E;
   color: white;
-  margin-top:12px;
-  display: inline-block;
 }
 
 .header {
@@ -99,6 +99,7 @@ li {
 .b-bottom {
     border-bottom: 1px solid #E0E0E0;
 }
+
 .workimg {
   margin-top: 30px;
 }
@@ -112,4 +113,11 @@ li {
 
 .footer a {
   color: #1A1A1A;
+}
+
+@media only screen and (max-width: 768px) {
+  .workimg {
+    width: 100%;
+  }
+
 }
