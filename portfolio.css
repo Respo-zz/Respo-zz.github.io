@@ -117,7 +117,7 @@ li {
 
 @media only screen and (max-width: 768px) {
   .workimg {
-    width: 100%;
+    width: 100vw;
   }
 
 }
