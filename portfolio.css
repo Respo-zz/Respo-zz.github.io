@@ -41,13 +41,9 @@ p {
   font-size: 20px
 }
 
-.helper-text p {
-  font-family: Karla;
-  font-style: normal;
-  font-weight: normal;
+span {
   font-size: 14px;
   text-transform: uppercase;
-  margin-bottom: 12px;
 }
 
 a {
@@ -62,9 +58,14 @@ ul {
   padding: 0px;
   list-style-type: none;
 }
+
 li {
   margin: 0px;
   padding: 0px;
+}
+
+.helper-text{
+  margin-bottom: 12px;
 }
 
 .link-container {
